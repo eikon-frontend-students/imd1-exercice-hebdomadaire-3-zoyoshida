@@ -1,0 +1,32 @@
+h1 {
+  color: #000;
+  font-family: Inter, sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+img {
+  width: 153px;
+  height: 95px;
+  object-fit: cover;
+}
+
+div {
+  display: flex;
+  width: 153px;
+  padding-top: 17px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 11px;
+
+  border-radius: 10px;
+  border: 1px solid #563015;
+  background: #fff;
+}
+
+div:hover {
+  box-shadow: 2px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
